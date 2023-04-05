@@ -1,0 +1,288 @@
+[
+  {
+    "title": "The Fool",
+    "number": "0",
+    "herb": "Mint",
+    "image": "./assets/cards/the-fool.png",
+    "image2": "./assets/herbs/mint.png",
+    "poem": "Mint, the herb of clarity and health, \nRefreshing leaves, potent wealth, \nProtects travelers on their way, \nBringing abundance day by day.",
+    "associations": [
+      "Innocence",
+      "Spontaneity",
+      "Adventure"
+    ]
+  },
+  {
+    "title": "The Magician",
+    "number": "1",
+    "herb": "Oregano",
+    "image": "./assets/cards/the-magician.png",
+    "image2": "./assets/herbs/oregano.png",
+    "poem": "Oregano, herb of ancient lore,\n A potent charm, for protection and more,\n With fragrant leaves and a mystical air,\n A magical herb, for luck and flair.",
+    "associations": [
+      "Magic",
+      "Transformation",
+      "Versatility"
+    ]
+  },
+  {
+    "title": "The High Priestess",
+    "number": "2",
+    "herb": "Roses",
+    "image": "./assets/cards/the-high-priestess.png",
+    "image2": "./assets/herbs/roses.png",
+    "poem": "Roses, flowers of self-care and love,\n A magical gift, from the heavens above,\n With sweet-scented petals and a gentle caress,\n A beautiful bloom, to soothe and bless.",
+    "associations": [
+      "Mystery",
+      "Intuition",
+      "Feminine Power"
+    ]
+  },
+  {
+    "title": "The Empress",
+    "number": "3",
+    "herb": "Rue",
+    "image": "./assets/cards/the-empress.png",
+    "image2": "./assets/herbs/rue.png",
+    "poem": "Rue, herb of magic and repel,\n A shield against harm, a safeguard so well,\n With feathery leaves and yellow flowers,\n A protective herb, for mystical powers.",
+    "associations": [
+      "Fertility",
+      "Nurturing",
+      "Abundance"
+    ]
+  },
+  {
+    "title": "The Emperor",
+    "number": "4",
+    "herb": "Cilantro",
+    "image": "./assets/cards/the-emperor.png",
+    "image2": "./assets/herbs/cilantro.png",
+    "poem": "Cilantro, herb of love and healing, \nA potent leaf, to soothe any feeling, \nWith fresh green leaves and a magic charm, \nTo keep you safe and free from harm.",
+    "associations": [
+      "Authority",
+      "Power",
+      "Control"
+    ]
+  },
+  {
+    "title": "The Hierophant",
+    "number": "5",
+    "herb": "Sage",
+    "image": "./assets/cards/the-hierophant.png",
+    "image2": "./assets/herbs/sage.png",
+    "poem": "Sage, herb of wise insight,\n A sacred plant, to bring clarity to sight,\n With aromatic leaves and a purifying power,\n A magical herb, for a mystical shower.",
+    "associations": [
+      "Tradition",
+      "Authority",
+      "Religion"
+    ]
+  },
+  {
+    "title": "The Lovers",
+    "number": "6",
+    "herb": "Catnip",
+    "image": "./assets/cards/the-lovers.png",
+    "image2": "./assets/herbs/catnip.png",
+    "poem": "Catnip, herb of feline and playful sway,\n A charming delight, to brighten up the day,\n With green leaves and purple flowers,\n A friendship herb, for joyous powers.",
+    "associations": [
+      "Connection",
+      "Affection",
+      "Playfulness"
+    ]
+  },
+  {
+    "title": "The Chariot",
+    "number": "7",
+    "herb": "Cinnamon",
+    "image": "./assets/cards/the-chariot.png",
+    "image2": "./assets/herbs/cinnamon.png",
+    "poem": "Cinnamon, a sweet and warming delight, \nA magical bark, to conjure up insight, \nWith fragrant aroma and a potent spell, \nA mystical spice, to weave stories to tell.",
+    "associations": [
+      "Ambition",
+      "Victory",
+      "Determination"
+    ]
+  },
+  {
+    "title": "Strength",
+    "number": "8",
+    "herb": "Thyme",
+    "image": "./assets/cards/strength.png",
+    "image2": "./assets/herbs/thyme.png",
+    "poem": "Thyme, the herb of courage and might, \nSprigs of joy, fragrant and bright, \nHealing wounds and easing pain, \nPsychic powers, clarity to gain.",
+    "associations": [
+      "Courage",
+      "Perseverance",
+      "Inner power"
+    ]
+  },
+  {
+    "title": "The Hermit",
+    "number": "9",
+    "herb": "Rosemary",
+    "image": "./assets/cards/the-hermit.png",
+    "image2": "./assets/herbs/rosemary.png",
+    "poem": "Rosemary, herb of clarity and light, \n A purifying charm for day and night,\n With fragrant leaves and blue flowers true,\n A cleansing gift for mind and view.",
+    "associations": [
+      "Solitude",
+      "Wisdom",
+      "Introspection"
+    ]
+  },
+  {
+    "title": "Wheel of Fortune",
+    "number": "10",
+    "herb": "Bay Leaf",
+    "image": "./assets/cards/wheel-of-fortune.png",
+    "image2": "./assets/herbs/bay-leaf.png",
+    "poem": "Bay Leaf, herb of mystical power,\n A prophetic charm, for fortunes to flower,\n With fragrant leaves and a spellbinding hue,\n A magical herb, for insights anew.",
+    "associations": [
+      "Change",
+      "Destiny",
+      "Luck"
+    ]
+  },
+  {
+    "title": "Justice",
+    "number": "11",
+    "herb": "Nutmeg",
+    "image": "./assets/cards/justice.png",
+    "image2": "./assets/herbs/nutmeg.png",
+    "poem": "Nutmeg, the spice of mystic light, \nA fragrance that can set things right, \nA pinch of magic in each dish, \nBrings forth abundance, love, and bliss.",
+    "associations": [
+      "Balance",
+      "Fairness",
+      "Clarity"
+    ]
+  },
+  {
+    "title": "The Hanged One",
+    "number": "12",
+    "herb": "Yarrow",
+    "image": "./assets/cards/the-hanged-one.png",
+    "image2": "./assets/herbs/yarrow.png",
+    "poem":"Yarrow, herb of healing grace, \nA gift from nature to embrace, \nWith feathered leaves and flowers bright, \nA soothing balm for mind and sight.",
+    "associations": [
+      "Surrender",
+      "Transformation",
+      "Reflection"
+    ]
+  },
+  {
+    "title": "Death",
+    "number": "13",
+    "herb": "Marigold",
+    "image": "./assets/cards/death.png",
+    "image2": "./assets/herbs/marigold.png",
+    "poem": "Marigold, flower of the past, \nAncestors' wisdom it shall cast, \nPsychic visions and protection too, \nPositive energy it imbues.",
+    "associations": [
+      "Transformation",
+      "Release",
+      "Renewal"
+    ]
+  },
+  {
+    "title": "Temperance",
+    "number": "14",
+    "herb": "Lavender",
+    "image": "./assets/cards/temperance.png",
+    "image2": "./assets/herbs/lavender.png",
+    "poem": "Lavender, herb of magic and allure,\n A calming presence to help us endure,\n With purple blooms and fragrant grace,\n A bewitching herb, for an enchanting space.",
+    "associations": [
+      "Balance",
+      "Harmony",
+      "Tranquility"
+    ]
+  },
+  {
+    "title": "The Devil",
+    "number": "15",
+    "herb": "Nettle",
+    "image": "./assets/cards/the-devil.png",
+    "image2": "./assets/herbs/nettle.png",
+    "poem": "Nettle, the herb of exorcism and light, \nA guardian against the darkest night, \nBanishing evil with its might, \nA potent magic plant, shining bright.",
+    "associations": [
+      "Temptation",
+      "Intensity",
+      "Transformation"
+    ]
+  },
+  {
+    "title": "The Tower",
+    "number": "16",
+    "herb": "Garlic",
+    "image": "./assets/cards/the-tower.png",
+    "image2": "./assets/herbs/garlic.png",
+    "poem": "Garlic, bulb of protection and might, \nA mystical root, to keep you upright, \nWith pungent scent and a potent charm, \nA magic herb, to shield from harm.",
+    "associations": [
+      "Destruction",
+      "Awakening",
+      "Revelation"
+    ]
+  },
+  {
+    "title": "The Star",
+    "number": "17",
+    "herb": "Aloe Vera",
+    "image": "./assets/cards/the-star.png",
+    "image2": "./assets/herbs/aloe-vera.png",
+    "poem": "Aloe Vera, herb of soothing grace,\n A healing balm, for skin to embrace,\n With succulent leaves and spikes so green,\n A medicinal herb, for a healthy sheen.",
+    "associations": [
+      "Healing",
+      "Nourishment",
+      "Renewal"
+    ]
+  },
+  {
+    "title": "The Moon",
+    "number": "18",
+    "herb": "Mugwort",
+    "image": "./assets/cards/the-moon.png",
+    "image2": "./assets/herbs/mugwort.png",
+    "poem": "Mugwort, the herb of magic and dreams, \nA mystical power it truly seems, \nIts fragrant smoke, an enchanting veil, \nGuiding the way through the ethereal trail.",
+    "associations": [
+      "Intuition",
+      "Dreams",
+      "Mystery"
+    ]
+  },
+  {
+    "title": "The Sun",
+    "number": "19",
+    "herb": "Sunflower",
+    "image": "./assets/cards/the-sun.png",
+    "image2": "./assets/herbs/sunflower.png",
+    "poem": "Sunflowers, symbols of the sun's bright light, \nA magical charm, to fill your heart with delight, \nWith golden petals and a joyful face, \nA magical flower, to bring happiness and grace.",
+    "associations": [
+      "Vitality",
+      "Positivity",
+      "Enlightenment"
+    ]
+  },
+  {
+    "title": "Judgement",
+    "number": "20",
+    "herb": "Ginger",
+    "image": "./assets/cards/judgement.png",
+    "image2": "./assets/herbs/ginger.png",
+    "poem": "Ginger root, a fire within, \nA magic herb, to banish sin, \nWith healing powers and spicy taste, \nA mystical plant, with a sacred place.",
+    "associations": [
+      "Awakening",
+      "Rebirth",
+      "Transformation"
+    ]
+  },
+  {
+    "title": "The World",
+    "number": "21",
+    "herb": "Basil",
+    "image": "./assets/cards/the-world.png",
+    "image2": "./assets/herbs/basil.png",
+    "poem": "Basil, herb of protection and power, \nA magical leaf, to banish any hour, \nWith fragrant leaves and a potent spell, \nA mystical herb, to protect and repel.",
+    "associations": [
+      "Completion",
+      "Wholeness",
+      "Achievement"
+    ]
+  }
+]

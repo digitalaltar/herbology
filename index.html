@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Canvas Example</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+        }
+    </style>
+    <script src="./gif.js"></script>
+</head>
+<body>
+    <canvas id="canvas" width="512" height="512"></canvas>
+
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+
+        let cardData = [];
+        let selectedCard;
+
+        fetch('cards.json')
+          .then(response => response.json())
+          .then(data => {
+            cardData = Object.values(data);
+
+            const randomIndex = Math.floor(Math.random() * cardData.length);
+            selectedCard = cardData[randomIndex];
+
+            const bottomImgUrl = selectedCard.image2;
+            const bottomImg = new Image();
+            bottomImg.src = bottomImgUrl;
+
+            const topImgUrl = selectedCard.image;
+            const topImg = new Image();
+            topImg.src = topImgUrl;
+
+            let opacity = 0;
+            let fadeIn = false;
+
+            bottomImg.onload = function() {
+
+						function draw() {
+						  ctx.globalAlpha = 1;
+						  ctx.drawImage(topImg, 0, 0);
+						  ctx.globalAlpha = opacity;
+						  ctx.drawImage(bottomImg, 0, 0);
+						  ctx.save();
+						  ctx.restore();
+
+						  if (fadeIn) {
+						    opacity += 0.01;
+						    if (opacity >= 1) {
+						      opacity = 1;
+						      fadeIn = false;
+						    }
+						  } else {
+						    opacity -= 0.01;
+						    if (opacity <= 0) {
+						      opacity = 0;
+						      fadeIn = true;
+						    }
+						  }
+
+						  setTimeout(function() {
+						    requestAnimationFrame(draw);
+						  }, 20);
+						}
+
+              draw();
+            };
+          });
+
+        function generateGif() {
+          const gif = new GIF({
+            workers: 2,
+            quality: 10,
+            width: canvas.width,
+            height: canvas.height,
+            background: 'white',
+            transparent: 'transparent',
+          });
+
+          let frameCount = 0;
+          const maxFrames = 50;
+
+          function addFrame() {
+            if (frameCount >= maxFrames) {
+              gif.on('finished', function(blob) {
+                const url = URL.createObjectURL(blob);
+                const link = document.createElement('a');
+                link.href = url;
+                link.download = 'animated.gif';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+              });
+              gif.render();
+              return;
+            }
+
+            gif.addFrame(canvas, { copy: true, delay: 10 });
+            frameCount++;
+            setTimeout(addFrame, 50);
+          }
+
+          addFrame();
+        }
+
+        window.addEventListener('keydown', function(event) {
+          if (event.key === 's' || event.key === 'S') {
+            generateGif();
+          }
+        });
+    </script>
+</body>
+</html>
