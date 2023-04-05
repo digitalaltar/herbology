@@ -1,2 +1,2 @@
-# herbology
+# Herbology
 Herbology: Tarot Inspired Data
